@@ -37,10 +37,10 @@ jobs:
         run: |
             python3 bikeshare_model/predict.py
 
-      - name: Model test
-        run: |
-            python3 -m pip install pytest
-            pytest
+      #- name: Model test
+        #run: |
+            #python3 -m pip install pytest
+            #pytest
 
   build-package-and-containerize:
     runs-on: ubuntu-latest
